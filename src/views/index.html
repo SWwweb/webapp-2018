@@ -30,7 +30,7 @@
   <!-- -------------------------------- HANDLEBARS --------------------------------- -->
 
   <script id="handlebars-meteo" type="text/x-handlebars-template">
-    <h1 class="bg-dark">Météo
+    <h1 class="bg-dark text-clair">Météo
       <p class="ville"><strong class="mx-auto">{{ville}}</strong></p>
     </h1>
 
@@ -43,12 +43,12 @@
           <h4>Humidité</h4>
           <h2 class="pt-3">{{humidite}}</h2>
         </div>
-        <div class="conteneur-tend col-5 m-4">
+        <div class="conteneur-tend col-5 p-4 m-2">
           <h4>Tendance</h4>
           <div>{{tendance}}</div><br>
-           <div class="col-5 m-4">
-             <img src="{{imagemeteo}}" id="imgmeteo" alt="" width="128" height="128">
-           </div>
+        </div>
+        <div class="col-5 m-4">
+           <img src="{{imagemeteo}}" id="imgmeteo" alt="" width="128" height="128">
         </div>
     </div>
   </script>
