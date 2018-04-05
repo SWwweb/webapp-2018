@@ -10,4 +10,4 @@
 Italique | Surligne | Gras
 --- | --- | ---
 *Still* | `renders` | **nicely**
-asterisque | backtic | 2 asterisques
+asterisque | backtic | 2 asterisques"# view.github.io" 
